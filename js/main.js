@@ -101,6 +101,15 @@ class Carrito{
         }
         
         this.eliminarProductoStorage(productoID);
+        Swal.fire({
+            type:'error',
+            title: 'Opps...',
+            text: 'Has eliminado el producto ',
+            icon: 'warning',
+            timer:1500,
+            showConfirmButton:false,
+        
+        })
         //this.calcularTotal();
         
     }
@@ -122,6 +131,7 @@ class Carrito{
             }
         });
         localStorage.setItem('productos',JSON.stringify(productosLS));
+        
     }
     
     leerStorage(){
