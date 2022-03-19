@@ -21,10 +21,10 @@
 <body>
   <header>
     <!--Inicio Menu  -->
-    <nav class="navbar navbar-light" style="background-color: rgb(245, 222, 192);">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(245, 222, 192);">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <h1>BOUTIQUE ZTD</h1>
+        <a class="navbar-brand" href="/index.html">
+          <img src="./imagen/logo.jpg" class="tamanioLogo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar">
@@ -38,7 +38,7 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./views/contacto.html">Contacto</a>
+                <a class="nav-link active" aria-current="page" href="../views/contacto.html">Contacto</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"  id="offcanvasNavbarDropdown" role="button"
@@ -46,9 +46,9 @@
                   Indumentaria
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                  <li><a class="dropdown-item" href="./views/ropaInterior.html">Ropa Interior</a></li>
-                  <li><a class="dropdown-item" href="./views/remeras.html">Remeras</a></li>
-                  <li><a class="dropdown-item" href="./views/pantalones.html">Pantalones</a></li>
+                  <li><a class="dropdown-item" href="../views/remeras.html">Remeras</a></li>
+                  <li><a class="dropdown-item" href="../views/ropaInterior.html">Ropa Interior</a></li>
+                  <li><a class="dropdown-item" href="../views/pantalones.html">Pantalones</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -57,21 +57,21 @@
                   Calzados
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                  <li><a class="dropdown-item" href="./views/ojotas.html">Ojotas</a></li>
-                  <li><a class="dropdown-item" href="./views/zapatos.html">Zapatos</a></li>
-                  <li><a class="dropdown-item" href="./views/zapatillas.html">Zapatillas</a></li>
+                  <li><a class="dropdown-item" href="../views/ojotas.html">Ojotas</a></li>
+                  <li><a class="dropdown-item" href="../views/zapatos.html">Zapatos</a></li>
+                  <li><a class="dropdown-item" href="../views/zapatillas.html">Zapatillas</a></li>
                 </ul>
               </li>
               <li class="nav-item">
                 <div class="two columns u-pull-right carrito1 ">
                   <ul>
                       <li id="let" class="submenu sinSubrayado moverCarrito"><a class="nav-link active" aria-current="page"><svg xmlns="http://www.w3.org/2000/svg"
-                        width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                        width="50" height="50" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
                         <path
                           d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
-                      </svg>Carrito</a>
+                      </svg></a>
                           <div id="carrito">
-                              <table id="lista-carrito" class="u-full-width">
+                              <table id="lista-carrito" class="u-full-width table">
                                   <thead>
                                       <tr>
                                           <th>Imagen</th>
