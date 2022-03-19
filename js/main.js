@@ -216,7 +216,7 @@ procesarPedido(e){
         
         })
     }else{
-        location.href = "../views/carrito2.html"
+        location.href = "./views/carrito2.html"
     }
     
 }
